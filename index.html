@@ -1,41 +1,120 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Admission Form</title>
+        <title>Portfolio website</title>
     </head>
-<body>
-    <h1>Admission Form</h1>
-    <form action="/submit" method="post">
-        <label for="name">Full Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone" name="phone" required><br><br>
-        <label for="dob">Date of Birth</label><br>
-        <input type="date" id="dob" name="dob" required><br><br>
-        <label for="gender">Gender</label><br>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="Other">Other</label><br><br>
-        <label for="course">Select Course</label><br>
-        <select id="course" name="course">
-        <option value="engineering">Engineering</option>
-        <option value="Business">Business</option>
-        <option value="medicine">Medicine</option>
-        <option value="arts">Arts</option>
-        </select><br><br>
-        <label for="resume">Upload Resume</label><br>
-        <input type="file" id="resume" value="resume"><br><br>
-        <label for="comments">Additional Comments</label><br>
-        <textarea id="comments" name="comments" rows="4" cols="50" ></textarea><br><br>
-        <label for="subscribe">Subscribe to Newsletter:</label>
-        <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
-        <button type="submit" name="submit" id="submitbutton">submit</button> 
-    </form>
-   
-</body>
+    <body style="background-color: rgb(237, 242, 247)">
+        <!-- navigation bar -->
+        <nav>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a> </li>
+            <li><a href="#resume">Resume</a> </li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </nav><br><hr>
+        <!-- home section -->
+    <section id="home">
+        <h1 style="color:rgb(31, 31, 148); font-family:georgia,garamond,serif;">Home</h1><hr>  
+        <h3 style = "font-family:georgia,garamond,serif;">Hi There,</h3><img src="pfp.jpeg" width="100" height="100">
+        <h2 style = "font-family:georgia,garamond,serif;"><i>I'm Washma Tabassum</i></h2>
+        <p>I Am Into <i>Web Development</i>. I enjoy creating websites and bringing ideas to life. Explore my work and feel free to get in touch! </p><br>
+    </section><hr>
+        <!-- about section -->
+    <section id="about">
+        <h1 style="color:rgb(31, 31, 148); font-family:georgia,garamond,serif;">About</h1><hr>
+        <p>It's a pleasure to welcome you to my corner of the web. Let me take a moment to share a bit about myself.</p>
+        <p>I've always been captivated by the world of technology and its creative potential. This fascination led me to delve into source code writing and web development. I love working with code and building websites. It's incredibly fulfilling to transform concepts into practical, user-friendly web experiences. Creating visually appealing sites is something I find truly enjoyable.</p>
+        <p>My academic journey has provided me with a solid grounding, and I'm eager to continue exploring the dynamic world of web development.I completed my Matriculation with a focus on Computer Science and Mathematics. Following that, I pursued Intermediate in Computer Science (ICS). In addition to my formal education, I undertook courses such as Microsoft Office and Programming Foundations with HTML, CSS, and JavaScript from Duke University. Currently, I am an undergraduate student at UET Peshawar with a commendable CGPA of 3.76.</p>
+        <p>I am proficient in HTML, CSS, and JavaScript and have worked in many short projects. Additionally, I possess strong coding abilities in C, C++, Java, and JavaScript. In addition to my technical skills, I'm good at communicating and working with others. This helps me handle different projects efficiently and clearly.</p>
+    </section><hr>
+        <!-- resume section -->
+    <section id="resume">
+        <h1 style="color:rgb(31, 31, 148);font-family:georgia,garamond,serif;">Resume</h1><hr>
+        <ul>
+            <li><h3>Educational Background</h3>
+                <ul>
+                    <li>Matric: F.G Public High School, 2016-2018</li>
+                    <li>Intermediate: Concordia College, 2018-2020</li>
+                    <li>Bachelor's Computer Science, 2021-2025, University of Engineering and Technology, Peshawar</li>
+                </ul>
+            </li>
+            <li><h3>Additional Courses</h3></li>
+            <ul>
+                <li>Microsoft Office, Sep 24, 2018</li>
+                <li>Programming Foundations with HTML, CSS and JavaScript from Duke University, Sep 23, 2023 </li>
+            </ul>
+            <li><h3>Skills</h3></li>
+            <ul>
+                <li>Programming languages: <i>HTML, CSS, JAVA, JS, C/C++, SQL</i></li>
+                <li>Frameworks: <i>Android</i></li>
+                <li>Tools: <i>Android Studio, Visual Studio, MYSQL, Linux, Codepen</i> </li>
+            </ul>
+            <li><h3>Projects</h3></li>
+            <ul>
+                <li>Health Care Management System in SQL</li>
+                <li>Image Filter webpage using HTML, CSS, JavaScript</li>
+                <li>Unit converter app in Android</li>
+                <li>Order Processing App in Java</li>
+            </ul><br>
+            <a href="Washma_resume.pdf" target="_blank">Download Resume</a>
+        </ul>
+    </section><hr>
+        <!-- portfolio section -->
+    <section id="portfolio">
+        <h1 style="color:rgb(31, 31, 148);font-family:georgia,garamond,serif;">Portfolio</h1><hr>
+        <h3 style="color:rgb(89, 89, 242);font-family:georgia,garamond,serif;">Projects</h3>
+        <ul>
+            <li>Image Filter webpage: <i>HTML, CSS, JavaScript</i></li>
+            <li>Unit Converter app: <i>Android Studio</i></li>
+            <li>Health Care Management System: <i>SQL</i></li>
+        </ul>
+        <h3 style="color:rgb(89, 89, 242);">Project Title: Image Filter webpage</h3>
+        <p><b>Description:</b> This project is about uploading images to the webpage and applying filters of your own choice</p>
+        <p><b>Details:</b> This webpage can be used by people for editing their images by using the filters that are designed in the webpage</p>
+        <p><b>Tools:</b>CodePen for writing HTML to structure the webpage, CSS for designing and JavaScript for interactions</p>
+        <p><i>Here are some of the images of the webpage</i></p>
+        <p><i>Main page</i></p>
+        <img src="filtersite1.png" height="400" width="700">
+        <p><i>Then i chose image file to be uploaded</i></p>
+        <img src="filtersite2.png" height="400" width="700">
+        <p><i>Then i applied graysacle filter from the webpage</i></p>
+        <img src="filtersite3.png" height="400" width="700"><br>
+        <h3 style="color:rgb(89, 89, 242);">Project Title: Health Care Management System</h3>
+        <p><b>Description:</b>This project is actually a database system</p>
+        <p><b>Details:</b>It basically store the records of patients, doctors, appointments, billings and discount on insurances. As well as records can be retrieved by applying queries.</p>
+        <p><b>Tools:</b>The tool for creating this database is MYSQL and the language was SQL</p>
+        <p><i>Here are some of the images of the Health Care Management System</i></p>
+        <p><i>Tables in HCMS</i></p>
+        <img src="HCMS1.png" width="300" height="300">
+        <p><i>Here a query has been applied to extract info of patients</i></p>
+        <img src="HCMS2.png" width="600" height="350">
+        <P><i>Then a patients appointment has been extrated using a query</i></P>
+        <img src="HCMS3.png" width="500" height="150">
+        <h3 style="color:rgb(89, 89, 242);">Project Title: Unit Coversion App</h3>
+        <p><b>Description:</b>This project is actually an android app</p>
+        <p><b>Details:</b>This app takes an input unit an converts it into the required unit</p>
+        <p><b>Tools:</b>The tool for creation of this project is Android Studio</p>
+        <p>Here is an image of Unit Converter App</p>
+        <img src="unit-converter.jpeg" height="500" width="300">
+    </section><hr>
+        <!-- contact section -->
+    <section id="contact">
+        <h1 style="color:rgb(31, 31, 148);font-family:georgia,garamond,serif;">Contact</h1><hr><br>
+        <form action="/submit" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="#name" name="name" placeholder="name">
+            <label for="email">Email</label>
+            <input type="email" id="#email" name="email" placeholder="email"><br><br>
+            <label for="subject">Subject</label><br>
+            <input type="text" id="#subject" name="subject"><br>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" ></textarea><br>
+            <button type="submit" name="submit" id="submitbutton">submit</button><br>
+        </form><br>
+        <a href="mailto:washmamalik2906@gmail.com" target="_blank"><img src="email.png" width="30" height="30"></a>
+        <a href="https://www.linkedin.com/in/washma-tabassum/" target="_blank"><img src="linkedin.png" height="40" width="40"></a>
+        <a href="tel:+3167514616"><img src="phone.png" width="30" height="30"></a>
+        <a href="https://github.com/WashmaTabassum" target="_blank"><img src="github-icon.png" height="25" width="25"></a>
+    </section>
+    </body>
 </html>
